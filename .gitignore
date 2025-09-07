@@ -6,4 +6,4 @@ debug
 foo.*
 *.log
 data
-uni.lua
+lazy-lock.json

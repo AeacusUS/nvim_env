@@ -13,15 +13,6 @@ require("lazy").setup({
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
         -- import any extras modules here
         -- { import = "lazyvim.plugins.extras.lang.typescript" },
-        {
-            "lervag/vimtex",
-            lazy = false, -- we don't want to lazy load VimTeX
-            -- tag = "v2.15", -- uncomment to pin to a specific release
-            init = function()
-                -- VimTeX configuration goes here, e.g.
-                vim.g.vimtex_view_method = "zathura"
-            end,
-        },
         -- { import = "lazyvim.plugins.extras.lang.json" },
         -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
         -- import/override with your plugins
